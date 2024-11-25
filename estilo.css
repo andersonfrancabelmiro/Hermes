@@ -1,0 +1,209 @@
+body {
+    background-color: rgb(0, 0, 0); /* Define a cor de fundo da página como preto */
+    font-family: "ＭＳ Ｐゴシック"; /* Define a fonte utilizada no corpo como "ＭＳ Ｐゴシック" */
+    color: yellow; /* Define a cor do texto como amarelo */
+}
+
+a{
+    text-decoration: none; /* Remove o sublinhado do texto */
+}
+
+.topo {
+    display: flex; /* Define o layout como flexível, permitindo o alinhamento dos itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    width: 100%; /* Define a largura como 100% da área disponível */
+    height: auto; /* A altura é ajustada automaticamente com base no conteúdo */
+    gap: 210px; /* Define um espaço de 210 pixels entre os itens */
+}
+
+.boxtopo {
+    display: inline-flex; /* Permite que os itens sejam exibidos em linha com flexbox */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    padding: 10px; /* Adiciona um preenchimento de 10 pixels dentro do box */
+    margin: 10px; /* Adiciona uma margem de 10 pixels ao redor do box */
+    border: 2px solid blue; /* Adiciona uma borda azul de 2 pixels ao redor do box */
+    width: 100px; /* Define a largura do box como 100 pixels */
+    height: 100px; /* Define a altura do box como 100 pixels */
+}
+
+.boxtopomeio {
+    display: inline-flex; /* Permite que os itens sejam exibidos em linha com flexbox */
+    width: 400px; /* Define a largura do box como 400 pixels */
+    height: 100px; /* Define a altura do box como 100 pixels */
+    padding: 10px; /* Adiciona um preenchimento de 10 pixels dentro do box */
+    margin: 10px; /* Adiciona uma margem de 10 pixels ao redor do box */
+    border: 2px solid blue; /* Adiciona uma borda azul de 2 pixels ao redor do box */
+    text-align: center; /* Centraliza o texto dentro do box */
+    justify-content: center
+}
+
+img {
+    width: auto; /* Define a largura da imagem como automática, mantendo a proporção */
+}
+
+.gigante {
+    text-align: center; /* Centraliza o conteúdo de texto dentro do elemento */
+    border: 2px solid blue; /* Adiciona uma borda azul de 2 pixels ao redor do elemento */
+    margin: 100px; /* Adiciona uma margem de 100 pixels ao redor do elemento */
+    font-family: "ＭＳ Ｐゴシック"; /* Define a fonte utilizada no corpo como "ＭＳ Ｐゴシック" */
+}
+
+.gigante p {
+    font-size: 2cm; /* Define o tamanho da fonte do parágrafo como 2 centímetros (não recomendado para responsividade) */
+    color: rgb(219, 158, 168); /* Define a cor do texto como um tom específico de rosa claro */
+    font-family: "ＭＳ Ｐゴシック"; /* Define a fonte utilizada no parágrafo como "ＭＳ Ｐゴシック" */
+}
+
+.paginas {
+    display: inline-flex; /* Permite que os itens sejam exibidos em linha com flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    padding: 20px; /* Adiciona um preenchimento de 20 pixels dentro do elemento */
+    text-align: center; /* Centraliza o texto dentro do elemento */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    color: yellow; /* Define a cor do texto como amarelo */
+    border: 2px solid blue; /* Adiciona uma borda azul de 2 pixels ao redor do elemento */
+    width: 200px; /* Define a largura do elemento como 200 pixels */
+}
+
+.tenis-container {
+    display: flex; /* Define o layout como flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    width: 100%; /* Define a largura como 100% da área disponível */
+    height: auto; /* A altura é ajustada automaticamente com base no conteúdo */
+    gap: 50px; /* Define um espaço de 50 pixels entre os itens */
+}
+
+.tenis {
+    height: 100px; /* Define a altura do elemento como 100 pixels */
+    width: 100px; /* Define a largura do elemento como 100 pixels */
+    display: inline-flex; /* (Correção necessária) Não é uma propriedade válida; deveria ser 'inline-flex' ou 'flex' */
+    justify-content: center; /* Centraliza os itens horizontalmente dentro do elemento */
+    align-items: center; /* Centraliza os itens verticalmente dentro do elemento */
+    margin: 20px; /* Adiciona uma margem de 20 pixels ao redor do elemento */
+}
+
+nav {
+    display: flex; /* Define o layout como flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    width: 100%; /* Define a largura como 100% da área disponível */
+    height: auto; /* A altura é ajustada automaticamente com base no conteúdo */
+    gap: 610px; /* Define um espaço de 610 pixels entre os itens */
+    font-size: 30px; /* Define o tamanho da fonte como 30 pixels */
+}
+
+.paginas-atelie {
+    display: inline-flex; /* Permite que os itens sejam exibidos em linha com flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    padding: 20px; /* Adiciona um preenchimento de 20 pixels dentro do elemento */
+    text-align: center; /* Centraliza o texto dentro do elemento */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    color: yellow; /* Define a cor do texto como amarelo */
+    border: 2px solid blue; /* Adiciona uma borda azul de 2 pixels ao redor do elemento */
+    width: 300px; /* Define a largura do elemento como 300 pixels */
+    font-size: 30px; /* Define o tamanho da fonte como 30 pixels */
+}
+
+.nav-paginas-atelie {
+    display: flex; /* Define o layout como flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    width: 100%; /* Define a largura como 100% da área disponível */
+    height: auto; /* A altura é ajustada automaticamente com base no conteúdo */
+    gap: 450px; /* Define um espaço de 450 pixels entre os itens */
+}
+
+.recebimento-envio {
+    border: 2px solid blue; /* Adiciona uma borda azul de 2 pixels ao redor do elemento */
+    align-items: center; /* Centraliza os itens verticalmente */
+    text-align: center; /* Centraliza o texto dentro do elemento */
+
+}
+ .botao-envio{
+    background-color: blue;
+    display:inline-flex; /* Define o layout como flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    height: auto; /* A altura é ajustada automaticamente com base no conteúdo */
+ }
+
+.tenis-meio{
+    border-style: dashed;
+    width: 200px;
+}
+
+.tipo-tenis{
+    display: flex; /* Permite que os itens sejam exibidos em linha com flex */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    padding: 20px; /* Adiciona um preenchimento de 20 pixels dentro do elemento */
+    text-align: center; /* Centraliza o texto dentro do elemento */
+    color: yellow; /* Define a cor do texto como amarelo */
+    border: 2px solid blue; /* Adiciona uma borda azul de 2 pixels ao redor do elemento */
+    width: 200px; /* Define a largura do elemento como 200 pixels */
+    gap: 100px; /* Define um espaço de 450 pixels entre os itens */
+
+}
+.card-img-top{
+    display:inline-flex; /* Define o layout como flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    height: 150px;
+    width: 150px;
+}
+.card{
+    background-color: black;
+}
+
+.card{
+    display:inline-flex; /* Define o layout como flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    text-align: center; /* Centraliza o texto dentro do elemento */
+
+
+}
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+
+  /* Ajuste para telas menores */
+@media (max-width: 768px) {
+    .topo {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        gap: 20px; /* Reduz o espaço entre os itens */
+    }
+
+    .boxtopo, .boxtopomeio {
+        width: 100%; /* Faz os boxes ocuparem toda a largura disponível */
+        height: auto; /* Ajusta a altura automaticamente */
+    }
+
+    .tenis {
+        width: 80px; /* Reduz a largura do elemento */
+        height: 80px; /* Reduz a altura do elemento */
+    }
+}
+
+/* Ajuste para telas muito pequenas */
+@media (max-width: 480px) {
+    .gigante p {
+        font-size: 1cm; /* Diminui o tamanho da fonte */
+    }
+
+    nav {
+        font-size: 20px; /* Ajusta o tamanho do texto */
+        gap: 20px; /* Reduz o espaço entre os itens */
+    }
+
+    .paginas, .paginas-atelie {
+        width: 100%; /* Faz os elementos ocuparem a largura total */
+        font-size: 18px; /* Diminui o tamanho da fonte */
+    }
+}
